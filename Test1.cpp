@@ -19,8 +19,8 @@ struct box
 };
 struct frame
 {
-    image img;
-    std::vector<box> boxes;
+  image img;
+  std::vector<box> boxes;
 };
 
 // Класс для работы над объединением боксов.
